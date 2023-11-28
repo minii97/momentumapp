@@ -1,0 +1,7 @@
+:root {
+  --2xl-font: clamp(100px, 10vw, 140px);
+  --xl-font: clamp(60px, 5.5vw, 80px);
+  --lg-font: clamp(30px, 2.7vw, 40px);
+  --sm-font: clamp(16px, 1.5vw, 22px);
+  --xs-font: clamp(12px, 1.3vw, 20px);
+}

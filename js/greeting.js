@@ -60,4 +60,6 @@ function logout() {
   // 숨길 요소는 hidden 클래스 추가, 보일 요소는 hidden 클래스 삭제
   greeting.innerText = '';
   // h1에 text node값 비워줌.
+  deleteAllTodo();
+  // 로그아웃하면 기존에 입력한 todo list도 reset
 }
